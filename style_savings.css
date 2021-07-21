@@ -1,0 +1,107 @@
+#header{
+        margin:0%;
+        position: static;
+        background-color: aqua 80deg;
+    }
+    .btn-group {
+    background-color: #4fa1d8; 
+    border: 1px solid#4fa1d8 ;
+    color: white;
+    padding-top:1%;
+    padding-bottom:1%;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 4%;
+    }
+    .btn-group #home{
+        background-color: rgb(214, 236, 243);
+    text-align: center;
+    text-decoration: solid;
+    font-size: 30px;
+    cursor: pointer;
+    border: groove 0.9% black;
+    border-radius: 10%; 
+    }
+   .btn-group #savings{
+               background-color: rgb(214, 236, 243);
+               text-align: center;
+        text-decoration: solid;
+        font-size: 30px;
+        cursor: pointer;
+        border: groove 0.9% black;
+    border-radius: 10%;  
+   }
+   .btn-group #budget{
+              background-color: rgb(214, 236, 243);
+       text-align: center;
+    text-decoration: solid;
+    font-size: 30px;
+    cursor: pointer;
+     border: groove 0.9% black;
+    border-radius: 10%; 
+   } 
+   .btn-group #tips{
+              background-color: rgb(214, 236, 243);
+       text-align: center;
+    text-decoration: solid;
+    font-size: 30px;
+    cursor: pointer;
+     border: groove 0.9% black;
+    border-radius: 10%; 
+   }
+
+    .btn-group #home:hover {
+    background-color: rgb(171, 173, 182);
+    border-radius: 20%;
+    }
+    .btn-group #savings:hover {
+    background-color: rgb(171, 173, 182);
+    border-radius: 20%;
+    }
+    .btn-group #budget:hover {
+    background-color: rgb(171, 173, 182);
+    border-radius: 20%;
+    }
+    .btn-group #tips:hover {
+    background-color: rgb(171, 173, 182);
+    border-radius: 20%;
+    }
+    .container #container{
+        position: relative;
+    }
+    #income h1{
+        text-align: left;
+        position: relative;
+        left: 2%;
+        top: 6%;
+        right:50%
+
+
+    }
+        
+	.piechart {
+		margin-top: 5%;
+		display: block;
+		position: relative;
+		width: 30%;
+		height: 30%;
+		border-radius: 50%;
+		background-image: conic-gradient(
+			pink 70deg,
+			lightblue 0 235deg,
+			orange 0);
+	}
+
+	
+	.piechart {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    #expense {
+        position: relative;
+        left: 50%;
+        top:6%;
+        
+    }
